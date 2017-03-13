@@ -1,0 +1,1051 @@
+apt-get update
+ls
+mkdir anteoy
+cd anteoy/
+ls
+wget https://raw.github.com/viljoviitanen/setup-simple-pptp-vpn/master/setup.sh
+ls
+sh setup.sh 
+apt-get purge pptpd 
+apt-get clean
+apt-get autoremove
+ip addr
+service pptpd status
+service pptpd start
+apt-get install pptpd
+vim /etc/pptpd.conf
+vim /etc/ppp/pptpd-options
+vim /etc/ppp/chap-secrets
+service pptpd restart
+service pptpd status
+service pptpd restart
+vim /etc/sysctl.conf
+sysctl -p
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+cat /etc/ppp/chap-secrets
+ip addr
+cat /var/log/pptpd.log
+vim /etc/ppp/pptpd-options
+service pptpd stop
+service pptpd start
+tail -f /var/log/pptpd.log
+passwd
+cd anteoy/
+ls
+cat setup.sh 
+iptables
+service pptpd restart
+apt install pptpd
+cat /etc/pptpd.conf
+cat /etc/ppp/options.pptpd
+cat /etc/ppp/chap-secrets
+service pptpd restart
+vim /etc/sysctl.conf
+sysctl -p
+ifconfig
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+vim /etc/ppp/pptpd-options
+service pptpd stop
+service pptpd start
+tail -f /var/log/pptpd.log
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+tail -f /var/log/pptpd.log
+vim /etc/ppp/pptpd-options
+cp /etc/ppp/pptpd-options /etc/ppp/pptpd111111111111111111111111
+vim /etc/ppp/pptpd-options
+rm /etc/ppp/pptpd-options
+vim /etc/ppp/pptpd-options
+service pptpd restart
+service pptpd status
+service pptpd restart
+tail -f /var/log/pptpd.log
+vim /etc/ppp/pptpd111111111111111111111111 
+cp /etc/ppp/pptpd111111111111111111111111 /etc/ppp/pptpd-options 
+vim /etc/ppp/pptpd-options 
+service pptpd restart
+tail -f /var/log/pptpd.log
+cat /etc/pptpd.conf 
+cat /etc/ppp/options.pptpd
+vim /etc/ppp/chap-secrets
+iptables -t nat -A POSTROUTING -s 192.168.2.0/24 -o ens3 -j MASQUERADE
+service pptpd restart
+vim /etc/ppp/chap-secrets
+service pptpd restart
+vim /etc/ppp/chap-secrets
+service pptpd restart
+vim /etc/ppp/chap-secrets
+iptables -t nat -A POSTROUTING -s 192.168.2.0/24 -o ens3 -j MASQUERADE
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+service pptpd restart
+vim /etc/ppp/chap-secrets
+service pptpd restart
+vim /etc/ppp/chap-secrets
+service pptpd restart
+vim /etc/ppp/chap-secrets
+service pptpd restart
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+vim /etc/ppp/chap-secrets
+service pptpd restart
+vim /etc/ppp/chap-secrets
+service pptpd restart
+vim /etc/ppp/chap-secrets
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+vim /etc/ppp/chap-secrets
+service pptpd restart
+vim /etc/ppp/chap-secrets
+service pptpd restart
+cat /etc/ppp/chap-secrets
+cat /etc/ppp/pptpd-options
+cat /etc/pptpd.conf
+cat /etc/ppp/options.pptpd
+vim /etc/ppp/options.pptpd
+cat logfile /var/log/pptpd.log 
+cat /var/log/pptpd.log 
+touch /var/log/pptpd.log 
+cat /var/log/pptpd.log 
+service pptpd restart
+tail -f /var/log/pptpd.log 
+ipaddr
+ip addr
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+vim /etc/ppp/chap-secrets
+service pptpd restart 
+service pptpd stop 
+service pptpd status
+service pptpd start
+service pptpd status
+vim /etc/ppp/chap-secrets
+service pptpd stop 
+service pptpd start
+vim /etc/ppp/chap-secrets
+service pptpd stop
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+service pptpd start 
+service pptpd status
+vim /etc/ppp/chap-secrets
+service pptpd restart
+service pptpd status
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+service pptpd stop
+service pptpd start
+service pptpd status
+cat /etc/ppp/chap-secrets
+vim /etc/ppp/options.pptp
+vim /etc/ppp/pptpd-options
+service pptpd restart
+service pptpd stop
+service pptpd start
+tail -f /var/log/pptpd.log 
+pptpd -version
+pptp -version
+vim /etc/ppp/pptpd-options
+service pptpd restart
+vim /etc/ppp/pptpd-options
+service pptpd restart
+reboot 
+service pptpd status
+service pptpd start
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+tail -f /var/log/pptpd.log 
+vim /etc/ppp/pptpd-options
+reboot now
+service pptpd start
+tail -f /var/log/pptpd.log 
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+tail -f /var/log/pptpd.log 
+vim /etc/ppp/pptpd-options
+reboot
+service pptpd start
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+tail -f /var/log/pptpd.log 
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+service pptpd restart 
+tail -f /var/log/pptpd.log 
+reboot 
+service pptpd start
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+tail -f /var/log/pptpd.log 
+service pptpd start
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+tail -f /var/log/pptpd.log 
+ping 74.125.28.106
+service pptpd status
+service pptpd restart
+ping www.google.com
+ping www.youtube.com
+ping www.google.com
+service pptpd start
+service pptpd status
+service pptpd restart
+service pptpd stop
+service pptpd start
+tail -f /var/log/pptpd.log 
+reboot
+service pptpd restart
+service pptpd start
+tail -f /var/log/pptpd.log 
+service pptpd restart
+tail -f /var/log/pptpd.log 
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+route
+cd /etc/ppp/ip-up.d/
+ls
+cat 000resolvconf 
+tar -zcvf etcppp.tar.gz /etc/ppp/
+ls
+cp etcppp.tar.gz /root/anteoy/
+ip addr
+reboot 
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+service pptpd start
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+service pptpd restart
+tail -f /var/log/pptpd.log 
+route
+rm /etc/ppp/ip-pre-up
+rm /etc/ppp/ip-down.d
+cd /etc/ppp/
+ls
+ll
+cd ..
+ls
+rm -rf /etc/ppp/
+cd /root/
+cd anteoy/
+ls
+tar -zxvf etcppp.tar.gz -C /etc/ppp
+tar -zxvf etcppp.tar.gz -C /etc/ppp/
+mkdir /etc/ppp
+tar -zxvf etcppp.tar.gz -C /etc/ppp/
+cd /etc/ppp/etc/
+cd ..
+ls
+cd etc/
+ls
+cd ppp
+ls
+cp -a . /etc/ppp/
+cd /etc/ppp/
+ls
+rm -rf etc/
+ls
+ll
+reboot
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+service pptpd start
+tailf /var/log/pptpd.log 
+uname -a
+reboot
+ip addr
+route
+service pptpd start
+ip addr
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+route
+ip addr
+service pptpd restart
+tailf /var/log/pptpd.log 
+iptables -L
+iptables -L nat
+iptables -L -t nat
+service pptpd restart
+tailf /var/log/pptpd.log 
+reboot
+service pptpd start
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+tailf /var/log/pptpd.log 
+cat /etc/ppp/chap-secrets 
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+service pptpd restart
+service pptpd status
+tailf /var/log/pptpd.log 
+ls
+mkdir storm
+ls
+cd storm/
+ap-get update
+apt-get update
+sudo apt-get install dock.io
+sudo apt-get install docker.io
+docker
+docker images
+wget http://www.apache.org/dyn/closer.lua/storm/apache-storm-1.0.2/apache-storm-1.0.2.tar.gz
+ls
+tar -zxvf apache-storm-1.0.2.tar.gz 
+tar -xvf apache-storm-1.0.2.tar.gz 
+rm -rf apache-storm-1.0.2.tar.gz 
+ls
+wget http://www.apache.org/dyn/closer.lua/storm/apache-storm-1.0.2/apache-storm-1.0.2.tar.gz
+rm .
+rm  -a.
+rm *
+ls
+wget http://apache.fayea.com/storm/apache-storm-1.0.2/apache-storm-1.0.2.tar.gz 
+ls
+wget http://mirror.bit.edu.cn/apache/storm/apache-storm-1.0.2/apache-storm-1.0.2.tar.gz 
+ls
+tar -zxvf apache-storm-1.0.2.tar.gz 
+ls
+cd apache-storm-1.0.2/examples/storm-starter/
+ls
+docker run -it -v storm-starter-topologies-1.0.2.jar:/topology.jar storm:1.0.2 storm jar /topology.jar org.apache.storm.starter.ExclamationTopology
+docker images
+ls
+docker run -it -v ./storm-starter-topologies-1.0.2.jar:/topology.jar storm:1.0.2 storm jar /topology.jar org.apache.storm.starter.ExclamationTopology
+pwd
+docker run -it -v /root/storm/apache-storm-1.0.2/examples/storm-starter/storm-starter-topologies-1.0.2.jar:/topology.jar storm:1.0.2 storm jar /topology.jar org.apache.storm.starter.ExclamationTopology
+history
+docker ps
+docker exec -it ed3e0fb1e869
+docker exec -it ed3e0fb1e869 /bin/bash
+docker attanch ed3e0fb1e869
+docker attach ed3e0fb1e869
+docker ps -a
+docker ps -l
+docker run -d --restart always --name some-zookeeper zookeeper:3.4
+docker run -d --restart always --name some-nimbus --link some-zookeeper:zookeeper storm:1.0.2 storm nimbus
+docker ps -l
+docker run -d --restart always --name supervisor --link some-zookeeper:zookeeper --link some-nimbus:nimbus storm:1.0.2 storm supervisor
+docker run --link some-nimbus:nimbus -it --rm -v storm-starter-topologies-1.0.2.jar:/topology.jar storm:1.0.2 storm jar /topology.jar org.apache.storm.starter.WordCountTopology topology
+docker ps --help
+docker ps
+docker images
+ip addr
+docker ps
+telnet 127.0.0.1 2181
+telnet 127.0.0.1 2888
+telnet 127.0.0.1 3888
+mkdir docker
+cd docker/
+docker build --help
+docker build -t test .
+vim Dockerfile
+docker build -t mysql_docker .
+docker images
+vim Dockerfile
+docker build -t mysql_docker .
+vim Dockerfile Dockerfile 
+vim Dockerfile
+docker build -t mysql_docker .
+docker images
+docker run --name=mysqlserver -d -p 3306:3306 mysql_server
+docker run --name=mysql_docker -d -p 3306:3306 mysql_docker
+docker ps
+telnet 127.0.0.1 3306
+ls
+mkdir ubuntu-mysql-test
+cd ubuntu-mysql-test/
+vim Dockerfile
+docker build -t ubuntu-mysql .
+vim Dockerfile
+docker build -t ubuntu-mysql .
+vim Dockerfile
+docker ps
+docker pull tcbenkhard/centos6-jdk7
+docker images
+docker run -it tcbenkhard/centos6-jdk7 /bin/bash
+docker images
+docker run -it centos /bin/bash
+docker images
+docker run -it centos /bin/bash
+docker commit -m 'install openssh' -a 'yonghuxinxi' 8e4975258a48  centos
+docker images
+docker run --help
+docker --help
+docker run -d -p 50001:22 centos /usr/sbin/sshd -D
+docker ps
+ssh -p 50001 root@127.0.0.1
+telnet 127.0.0.1 50001
+ssh -p 50001 root@localhost
+docker attach --help
+docker attach centos
+docker ps
+docker attach ed3e0fb1e869
+history
+docker ps 
+docker exec -it backstabbing_minsky /bin/bash
+docker ps
+docker stop ed3e0fb1e869
+docker ps
+docker start ed3e0fb1e869
+docker ps
+docker stop ed3e0fb1e869
+docker images 
+docker pull centos6.5:centos6.5
+docker pull ubuntu16.04:ubuntu16.04
+docker run -it  ubuntu:14.04 /bin/bash
+docker ps
+docker start 8d9df1531a9b
+docker exec -it 8d9df1531a9b /bin/bash
+docker ps
+docker stop 8d9df1531a9b
+docker ps
+docker images
+docker pull ubuntu:16.04
+docker images
+docker run -it ubuntu:16.04 /bin/bash
+docker exec -it 57d63f34fc5e /bin/bash
+docker start 57d63f34fc5e
+docker exec -it 57d63f34fc5e /bin/bash
+docker commit -m 'install openssh' -a 'yonghuxinxi' 57d63f34fc5e  ubuntu-ssh:16.04
+docker images
+ls
+vim Dockerfile
+vim Dockerfile 
+docker build -t ubuntu16.04sshauto .
+vim Dockerfile 
+docker build -t ubuntu16.04sshauto .
+docker images
+cat Dockerfile
+docker run -it ubuntu16.04sshauto /bin/bash
+docker commit -m 'install openssh' -a 'Docker Newbee' 23a108488c17  ubuntu-ssh-passwd:16.04
+docker images
+docker run -d -p 50001:22 centos6-jdk7:ssh /usr/sbin/sshd -D
+
+docker run -d -p 50001:22 ubuntu-ssh-passwd:16.04 -c service ssh start -D
+docker --help
+docker run --help
+docker run -d -p 50001:22 ubuntu-ssh-passwd:16.04 /etc/init.d/ssh start -D
+telnet 127.0.0.1 50001
+docker exec -it 97094be955b9 /bin/bash
+docker ps
+docker start 97094be955b9
+docker exec -it 97094be955b9 /bin/bash
+docker ps
+docker ps
+docker exec -it 97094be955b9 /bin/bash
+docker stop 97094be955b9
+docker start 97094be955b9
+docker exec -it 97094be955b9 /bin/bash
+history
+docker exec -it 97094be955b9 /bin/bash
+#1488899433
+docker pull elasticsearch:5.0.1
+#1488899555
+mkdir -p /elasticsearch/data
+#1488899568
+docker run -d --name elasticsearch     --volume /etc/localtime:/etc/localtime     --volume /elasticsearch/data:/usr/share/elasticsearch/data     --publish 9200:9200     --publish 9300:9300     elasticsearch:5.0.1
+#1488899581
+docker ps
+#1488899611
+docker run -d --name elasticsearch     --volume /etc/localtime:/etc/localtime     --volume /elasticsearch/data:/usr/share/elasticsearch/data     --publish 9200:9200     --publish 9300:9300     elasticsearch:5.0.1
+#1488899626
+docker ps
+#1488899662
+docker ps -l
+#1488899683
+docker start elasticsearch
+#1488899687
+docker ps
+#1488899698
+vim /etc/sysctl.conf
+#1488899766
+docker start elasticsearch
+#1488899769
+docker ps
+#1488899794
+docker --help
+#1488899805
+docker ps -l
+#1488899817
+docker rm elasticsearch
+#1488899842
+docker run -d --name elasticsearch \
+#1488899941
+docker run -d --name elasticsearch     --volume /etc/localtime:/etc/localtime     --volume /elasticsearch/data:/usr/share/elasticsearch/data     --publish 9200:9200     --publish 9300:9300     elasticsearch:5.0.1
+#1488899945
+docker ps
+#1488899959
+docker ps -l
+#1488900039
+docker ps -l 0295ba0f3084
+#1488900050
+docker rm 0295ba0f3084
+#1488900065
+docker run -d -i --name elasticsearch     --volume /etc/localtime:/etc/localtime     --volume /elasticsearch/data:/usr/share/elasticsearch/data     --publish 9200:9200     --publish 9300:9300     elasticsearch:5.0.1
+#1488900068
+docker ps
+#1488900246
+docker logs -f elasticsearch
+#1488900299
+docker logs  elasticsearch
+#1488900326
+cat /tmp/hs_err_pid1.log
+#1488900371
+sysctl -p
+#1488900386
+docker start elasticsearch 
+#1488900389
+docker ps
+#1488900398
+docker logs elasticsearch 
+#1488900657
+docker ps 
+#1488900721
+docker start elasticsearch 
+#1488900787
+docker run -d -i --name elasticsearch-test     --volume /etc/localtime:/etc/localtime     --volume /elasticsearch/data:/usr/share/elasticsearch/data     --publish 9200:9200     --publish 9300:9300     elasticsearch:5.0.1
+#1488900792
+docker ps
+#1488900804
+docker logs elasticsearch-test 
+#1488900900
+free
+#1488900931
+top
+#1488900958
+top --help
+#1488900980
+top -n
+#1488900998
+free
+#1488901012
+docker ps
+#1488901031
+docker rm elasticsearch
+#1488901037
+docker rm elasticsearch-test 
+#1488901044
+free
+echo $HISTSIZE
+sed -s/HISTSIZE=1000/HISTSIZE=10000/$HISTSIZE /etc/profile 
+#1488896999
+vim /etc/profile
+#1488897048
+sed
+#1488897085
+sed -i 's/^HISTSIZE=1000/HISTSIZE=200/' /etc/profile
+#1488897090
+vim /etc/profile
+#1488897128
+source /etc/profile
+#1488897144
+echo $HISTSIZE
+#1488897241
+vim /etc/profile
+#1488897292
+source /etc/profile
+#1488897299
+echo $HISTSIZE
+#1488897334
+vim ~/.bashrc
+#1488897428
+source ~/.bashrc 
+#1488897432
+echo $HISTSIZE
+#1488897435
+history
+#1488897542
+docker ps
+#1488897881
+top
+#1488897919
+free
+#1488898044
+df -h
+#1488898169
+top
+#1488898239
+ps -ef | grep 26848
+#1488898400
+docker ps
+#1488898423
+docker stop 57d63f34fc5e
+#1488898428
+docker ps
+#1488898497
+free
+#1488898579
+docker stop supervisor
+#1488898593
+docker stop some-nimbus
+#1488898617
+docker stop some-zookeeper
+#1488898620
+docker ps
+#1488898640
+free
+#1488898686
+docker ps -a
+#1488900691
+docker logs -f elasticsearch 
+#1488900724
+docker run -d --name elasticsearch \
+#1488900729
+docker run -d --name elasticsearch 
+#1488900740
+docker logs -f elasticsearch 
+#1488944773
+docker
+#1488944776
+docker ps
+#1488944895
+lsof -i:2375
+#1488944909
+vim /etc/default/docker 
+#1488944948
+service docker restart
+#1488944994
+docker images
+#1488944998
+docker ps
+#1488945040
+ip addr
+#1488945105
+telnet 127.0.0.1 2375
+#1488953086
+docker swarm --advertise-addr 45.32.89.58
+#1488953129
+docker swarm --help
+#1488953171
+docker swarm init --advertise-addr 45.32.89.58
+#1488953211
+docker node ls
+#1488953337
+docker network ls
+#1488953401
+docker network create --driver overlay my-network
+#1488953415
+docker network create --help
+#1488953447
+docker network ls
+#1488953525
+docker service create --replicas 1 --name tomcat --publish 9090:8080 tomcat:latest
+#1488953542
+docker service ls
+#1488953561
+docker service ps tomcat
+#1488953582
+docker ps
+#1488953841
+docker service ls
+#1488953908
+docker service rm 88vpi0os83oh
+#1488953911
+docker service ls
+#1488953914
+docker ps
+#1488953948
+docker swarm
+#1488953976
+docker node ls
+#1488953987
+docker node --help
+#1488954030
+docker node rm b2x70na3u0pw9sxmsphrm65u5
+#1488954056
+docker node rm b2wzsf94le1i7kprb3x51xhp7
+#1488954312
+docker node update --availability drain b2wzsf94le1i7kprb3x51xhp7
+#1488954316
+docker node rm b2wzsf94le1i7kprb3x51xhp7
+#1488954366
+docker node rm --help
+#1488954403
+docker node rm --force b2wzsf94le1i7kprb3x51xhp7
+#1488954443
+docker ps
+#1488954459
+docker stop supervisor 
+#1488954466
+docker stop some-nimbus 
+#1488954475
+docker stop some-zookeeper 
+#1488954510
+docker service create --replicas 1 --name tomcat --publish 9090:8080 tomcat:latest
+#1488954515
+docker ps
+#1488954536
+docker service ps tomcat
+#1488954569
+free 
+#1488974784
+ping www.google.com
+#1488974851
+ping https://www.google.com.hk
+#1488974859
+ping www.google.com.hk
+#1488979843
+history
+#1488979881
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+#1488979893
+service pptpd restart
+#1488979903
+taif /var/log/pptpd.log 
+#1488979915
+tailf /var/log/pptpd.log 
+#1488979949
+service pptpd status
+#1488979958
+tailf /var/log/pptpd.log 
+#1488981118
+mkdir L2TP
+#1488981122
+cd L2TP/
+#1488981540
+cd L2TP/
+#1488981543
+wget https://raw.githubusercontent.com/hwdsl2/setup-ipsec-vpn/master/vpnsetup.sh
+#1488981547
+ls
+#1488981552
+cat vpnsetup.sh 
+#1488981603
+ls
+#1488981615
+./vpnsetup.sh
+#1488981632
+chmod -R 777 .
+#1488981636
+./vpnsetup.sh
+#1488981706
+rm .
+#1488981717
+rm vpnsetup.sh 
+#1488981720
+ls
+#1488981729
+wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
+#1488981760
+wget https://git.io/vpnsetup -O vpnsetup.sh &&sh vpnsetup.sh
+#1488981776
+ip addr
+#1488982157
+cd L2TP/
+#1488982158
+ls
+#1488982164
+vim vpnsetup.sh 
+#1488982326
+ip addr
+#1488982346
+vim vpnsetup.sh 
+#1488982381
+sh vpnsetup.sh 
+#1488985439
+vim /etc/xl2tpd/xl2tpd.conf
+#1488985486
+vim /etc/ipsec.conf
+#1488985577
+cd /etc/xl2tpd/
+#1488985578
+ls
+#1488985589
+vim l2tp-secrets 
+#1488985625
+vim xl2tpd.conf.old-2017-03-08-14\:13\:01 
+#1488985649
+cd  /root/L2TP/
+#1488985661
+vim ./vpnsetup.sh
+#1488985722
+cat /etc/ipsec.d/passwd
+#1488985746
+cd /etc/ipsec.d/
+#1488985747
+ls
+#1488985757
+cat pkcs11.txt 
+#1488985765
+vim pkcs11.txt 
+#1488985785
+ls
+#1488985803
+vim passwd 
+#1488985875
+vim v6neighbor-hole.conf 
+#1488985911
+cd /root/
+#1488985912
+ls
+#1488985922
+cd L2TP/
+#1488985931
+sh ./vpnsetup.sh 
+#1489026182
+docker --version
+#1489026482
+cat /etc/default/docker 
+#1489074793
+vim /etc/ppp/pptpd-options 
+#1489075323
+scp /etc/ppp/pptpd-options root@45.32.47.112:/etc/ppp/pptpd-options
+#1489075579
+ls
+#1489075612
+scp ./L2TP/vpnsetup.sh  root@45.32.47.112:/etc/ppp/pptpd-options
+#1489075634
+scp ./L2TP/vpnsetup.sh  root@45.32.47.112:/root/
+#1489075813
+scp /etc/pptpd.conf  root@45.32.47.112:/etc/pptpd.conf
+#1489075838
+cat /etc/ppp/chap-secrets
+#1489075901
+vim /etc/ppp/chap-secrets
+#1489075942
+cat /etc/ppp/chap-secrets
+#1489075961
+service pptpd restart
+#1489075963
+history
+#1489075989
+iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+#1489075995
+ip addr
+#1489115965
+telnet 127.0.0.1 1090
+#1489110708
+ls
+#1489110717
+mkdir ss
+#1489110722
+cd ss
+#1489110736
+go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
+#1489110816
+apt-get install golang-go
+#1489110836
+go
+#1489110849
+pwd
+#1489110851
+go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
+#1489110879
+export $GOPPATH=/root/gopath
+#1489110890
+mkdir /root/gopath
+#1489110894
+go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
+#1489110901
+export $GOPPATH=/root/gopath
+#1489110916
+export $GOPATH=/root/gopath
+#1489110937
+export $GOPATH=/root/gopath/
+#1489111012
+export GOPATH=/root/gopath/
+#1489111015
+export GOPATH=/root/gopath
+#1489111023
+export GOPATH=/root/gopath/
+#1489111038
+go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
+#1489111088
+ls
+#1489111095
+cd ../gopath/
+#1489111096
+ls
+#1489111124
+echo $GOLIB
+#1489111130
+echo $GOPATH
+#1489111135
+ll
+#1489111150
+cd bin/
+#1489111151
+ll
+#1489111194
+echo $time
+#1489111201
+echo $date
+#1489111204
+date
+#1489111462
+ls
+#1489111471
+vim config.json
+#1489111511
+./shadowsocks-server
+#1489111649
+vim config.json
+#1489111685
+ip addr
+#1489111727
+./shadowsocks-server
+#1489112144
+vim config.json 
+#1489112163
+./shadowsocks-server
+#1489112549
+vim config.json 
+#1489112594
+./shadowsocks-server
+#1489114453
+pip
+#1489114471
+apt-get install python-pip
+#1489114655
+apt-get install python-setuptools m2crypto
+#1489114681
+pip install shadowsocks
+#1489114704
+sudo apt install shadowsocks
+#1489114744
+sslocal --help
+#1489114797
+cd ~
+#1489114805
+cd ss
+#1489114807
+ll
+#1489114822
+vim shadowsocks.json
+#1489114915
+sslocal -c ./shadowsocks.json 
+#1489115491
+vim shadowsocks.json 
+#1489115545
+sslocal -c ./shadowsocks.json 
+#1489115672
+vim shadowsocks.json 
+#1489115683
+sslocal -c ./shadowsocks.json 
+#1489115787
+vim shadowsocks.json 
+#1489115827
+sslocal -c ./shadowsocks.json 
+#1489116322
+vim shadowsocks.json 
+#1489116358
+sslocal -c ./shadowsocks.json 
+#1489116093
+iptables -A INPUT -p tcp --dport 1090 -j ACCEPT
+#1489116106
+iptables -A OUTPUT -p tcp --sport 1090 -j ACCEPT
+#1489116114
+clear
+#1489116123
+iptables -L
+#1489116246
+telnet 127.0.0.1 5562
+#1489116252
+telnet 127.0.0.1 1090
+#1489116995
+iptables -A OUTPUT -p tcp --sport 50003 -j ACCEPT
+#1489117018
+iptables -A INPUT -p tcp --dport 50003 -j ACCEPT
+#1489117294
+cd ss/
+#1489117295
+ls
+#1489117298
+vim { 
+#1489117310
+vim shadowsocks.json 
+#1489117349
+sslocal -c /etc/ss.json
+#1489117358
+sslocal -c ./shadowsocks.json 
+#1489117573
+sslocal -s 45.32.89.58 -p 8388 -k "12345678" -b 127.0.0.1 -l 1080
+#1489118040
+sslocal -v -s 45.32.89.58 -p 8388 -k "12345678" -b 127.0.0.1 -l 1080
+#1489118077
+sslocal -v -s 45.32.89.58 -p 8388 -k "12345678" -b 127.0.0.1 -l 1090
+#1489118476
+sslocal -v -s 127.0.0.1 -p 8388 -k "12345678" -b 127.0.0.1 -l 1090
+#1489122838
+sslocal -v -s 127.0.0.1 -p 443 -k "12345678" -b 127.0.0.1 -l 1090
+#1489122998
+sslocal -v -s 127.0.0.1 -p 65510 -k "12345678" -b 127.0.0.1 -l 1090
+#1489123330
+iptables --help
+#1489126120
+sslocal -v -s 127.0.0.1 -p 65510 -k "12345678" -b 127.0.0.1 -l 1090
+#1489126329
+sslocal -v -s 45.32.89.58 -p 65510 -k "12345678" -b 127.0.0.1 -l 1090
+#1489126907
+ls
+#1489126914
+vim shadowsocks.json 
+#1489127007
+sslocal --help
+#1489127030
+sslocal -d
+#1489127043
+sslocal -c ./shadowsocks.json 
+#1489127060
+vim ./shadowsocks.json 
+#1489127084
+sslocal -c ./shadowsocks.json 
+#1489127155
+vim /etc/shadowsocks/config.json
+#1489127248
+sslocal
+#1489127277
+sslocal start
+#1489127316
+ssserver -c /etc/shadowsocks.json -d start 
+#1489127356
+ssserver -c /etc/shadowsocks/config.json
+#1489129320
+history
+#1489128679
+go
+#1489128687
+history
+#1489126104
+telnet 127.0.0.1 65510
+#1489126168
+telnet 127.0.0.1 1090
+#1489126286
+telnet 127.0.0.1 65510
+#1489126316
+ip addr
+#1489126335
+telnet 127.0.0.1 65510
+#1489126819
+netstat -nap | grep 65510
+#1489126842
+netstat -nap | grep 1090
+#1489126878
+cat /var/log/shadowsocks.log
+#1489126953
+ip addr
+#1489127101
+cat /var/log/shadowsocks.log
+#1489127116
+date
+#1489127178
+ip addr
+#1489127375
+cat /var/log/shadowsocks.log
+#1489127437
+netstat -nap | grep 65510
+#1489127466
+telnet 127.0.0.1 65510
+#1489127539
+telnet 45.32.89.58 65510
+#1489127582
+vim /etc/shadowsocks/config.json 
+#1489127749
+cat /var/log/shadowsocks.log
+#1489127808
+vim /etc/shadowsocks/config.json 
+#1489129171
+history
+#1489132373
+ip addr
+#1489132446
+history
+#1489132506
+ssserver -c /etc/shadowsocks/config.json 
+#1489132593
+ip addr
+#1489132614
+ssserver -c /etc/shadowsocks/config.json 
+#1489139833
+cat /etc/shadowsocks/config.json 
+#1489140208
+ls
+#1489140232
+nohup ssserver -c /etc/shadowsocks/config.json &
+#1489141197
+ls
+#1489141259
+scp -r ./L2TP root@45.32.59.171:/root/
